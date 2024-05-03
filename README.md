@@ -40,4 +40,6 @@ Config Example:
 ```
 You can run by downloading the source code and execute the ```$./run.sh``` script you can also run it like this ```$ go run main.go``` or you can compile the source code into a binary like this ``` $ go build -o broadband-$(uname)-$(uname -m) *.go``` 
 
+INFO: Rename / copy the ```conf-template.json``` into ```conf.json``` in the same folder.
+
 In the future I may add to run this as a service, add a graphic representation of the collected data, but this is just an initial idea for my current requirements.
